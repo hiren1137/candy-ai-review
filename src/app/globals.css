@@ -1,15 +1,20 @@
 @import "tailwindcss";
 
 :root {
-  --paper: #f3efe6;
-  --paper-deep: #e8e1d4;
-  --ink: #1c1914;
-  --muted: #5c564c;
-  --line: #cfc5b4;
-  --accent: #0f6b5c;
-  --accent-fg: #f7f4ee;
-  --score: #b45309;
-  --hero-glow: rgba(15, 107, 92, 0.12);
+  --bg: #0a0a0a;
+  --bg-elevated: #121212;
+  --bg-card: #161616;
+  --bg-soft: #1c1c1c;
+  --ink: #ffffff;
+  --muted: #a3a3a3;
+  --line: #2a2a2a;
+  --pink: #ff4d8d;
+  --pink-hot: #ff2d78;
+  --pink-deep: #e11d6a;
+  --pink-glow: rgba(255, 45, 120, 0.35);
+  --score: #ffb020;
+  --accent: var(--pink-hot);
+  --accent-fg: #ffffff;
 }
 
 @theme inline {
@@ -17,43 +22,70 @@
   --font-display: var(--font-display);
 }
 
+html {
+  color-scheme: dark;
+}
+
 body {
   background:
-    radial-gradient(1200px 500px at 10% -10%, var(--hero-glow), transparent 60%),
-    linear-gradient(180deg, #f7f3ea 0%, var(--paper) 40%, #efe8db 100%);
+    radial-gradient(900px 420px at 50% -8%, rgba(255, 45, 120, 0.18), transparent 55%),
+    radial-gradient(700px 380px at 100% 20%, rgba(255, 77, 141, 0.08), transparent 50%),
+    var(--bg);
   color: var(--ink);
-  font-family: var(--font-body), Georgia, serif;
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
 }
 
 h1,
 h2,
 h3,
 .font-display {
-  font-family: var(--font-display), Georgia, serif;
-  letter-spacing: -0.02em;
+  font-family: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: -0.03em;
 }
 
 .prose-review p {
   margin-bottom: 1rem;
-  line-height: 1.7;
-  color: var(--ink);
+  line-height: 1.75;
+  color: #d4d4d4;
 }
 
 .prose-review h2 {
   margin-top: 2.75rem;
   margin-bottom: 0.85rem;
-  font-size: 1.65rem;
+  font-size: 1.55rem;
   line-height: 1.2;
+  color: var(--ink);
 }
 
 .prose-review h3 {
   margin-top: 1.75rem;
   margin-bottom: 0.6rem;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
+  color: var(--ink);
 }
 
 @media (min-width: 640px) {
   .prose-review h2 {
-    font-size: 1.9rem;
+    font-size: 1.85rem;
   }
+}
+
+.pink-glow {
+  box-shadow: 0 0 0 1px rgba(255, 45, 120, 0.35), 0 0 28px var(--pink-glow);
+}
+
+.btn-pink {
+  background: linear-gradient(180deg, var(--pink) 0%, var(--pink-deep) 100%);
+  color: #fff;
+  box-shadow: 0 0 24px var(--pink-glow);
+}
+
+.btn-pink:hover {
+  filter: brightness(1.08);
+}
+
+.card-dark {
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: 1rem;
 }

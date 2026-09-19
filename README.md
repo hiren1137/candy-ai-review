@@ -16,20 +16,18 @@ Open [http://127.0.0.1:43123](http://127.0.0.1:43123).
 
 Set `NEXT_PUBLIC_AFFILIATE_URL` in `.env.local` to your CrakRevenue / Candy AI tracking URL. All CTAs read from `src/lib/affiliate.ts`.
 
-## Screenshots to capture from candy.ai
+## Screenshots included
 
-Drop files into `public/screenshots/` then swap the `ScreenshotSlot` placeholders in `src/app/page.tsx`.
+Real candy.ai captures live in `public/screenshots/`:
 
-| ID | Capture this |
-|----|----------------|
-| `hero-home` | Home / character gallery with builder entry |
-| `character-builder` | Create character: appearance + personality + voice |
-| `chat-session` | Chat thread with a normal reply |
-| `image-output` | Photorealistic selfie / scene of one consistent character |
-| `live-action` | Live Action / video UI or clip frame |
-| `pricing-screen` | Official pricing (monthly / quarterly / annual) |
+| File | Used for |
+|------|----------|
+| `hero-home.png` | Home / featured gallery |
+| `character-builder.png` | Create Dream AI Girl flow |
+| `chat-session.png` | Companion chat card |
+| `live-action.png` | Shorts / video episodes |
 
-Tips: desktop width ~1280px, crop UI chrome only, blur any personal email if visible, keep SFW marketing-safe crops if you want ad networks later.
+Still useful to add later: official **pricing/checkout** screen.
 
 ## Content rules
 

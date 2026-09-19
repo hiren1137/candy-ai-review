@@ -11,10 +11,10 @@ export const metadata: Metadata = {
 export default function TermsPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6 prose-review">
-      <Link href="/" className="text-sm text-[var(--accent)] hover:underline">
+      <Link href="/" className="text-sm text-[var(--pink)] hover:underline">
         ← Back to review
       </Link>
-      <h1 className="mt-4 font-[family-name:var(--font-display)] text-4xl">Terms and Conditions</h1>
+      <h1 className="mt-4 font-[family-name:var(--font-display)] text-4xl font-bold text-white">Terms and Conditions</h1>
       <p className="text-[var(--muted)]">Last updated: September 2026</p>
       <h2>Editorial purpose</h2>
       <p>
