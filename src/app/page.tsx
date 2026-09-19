@@ -412,7 +412,7 @@ export default function HomePage() {
             Open candy<span className="text-[var(--pink)]">.</span>ai and build a companion
           </p>
           <p className="mt-2 max-w-xl text-sm text-[var(--muted)]">
-            Free tier for text sampling. Annual plan for the lowest sticker price. Media features use tokens.
+            Sample free text first. Switch to the annual plan if the stills convince you. Media draws from tokens.
           </p>
           <div className="mt-5">
             <CtaButton size="lg">Try Candy AI Now</CtaButton>

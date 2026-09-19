@@ -1,9 +1,9 @@
 # Marcus Hale
 
-AI companion apps reviewer. Tests paid plans with his own card and logs token spend.
+Consumer AI apps tester. Pays for the plans he reviews.
 
 ## Bio
-Marcus Hale reviews consumer AI chat and image apps. For this Candy AI review he ran a paid account for six weeks, mixed text chat with image and Live Action video, and tracked how fast the token wallet emptied.
+Marcus Hale tests companion chat and image apps on paid seats. For this Candy AI review he ran a paid account for six weeks and bought token packs with his own card.
 
 ## Byline
-Reviewed by Marcus Hale · AI & consumer-tech reviewer
+Reviewed by Marcus Hale · Consumer AI apps tester
