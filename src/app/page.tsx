@@ -28,6 +28,9 @@ export const metadata: Metadata = {
     url: `${SITE.domain}/`,
     type: "article",
   },
+  other: {
+    "mylead-verification": "2493163f3ea74851b14ad0657125e7b3",
+  },
 };
 
 export default function HomePage() {
