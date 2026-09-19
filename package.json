@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack -H 0.0.0.0 -p 43123",
-    "build": "next build --turbopack",
+    "build": "next build",
     "start": "next start -H 0.0.0.0 -p 43123",
-    "lint": "eslint"
+    "lint": "eslint",
+    "pages:build": "next build"
   },
   "dependencies": {
     "clsx": "^2.1.1",
