@@ -1,4 +1,5 @@
 import Image from "next/image";
+import type { Metadata } from "next";
 import { CtaButton, ReviewImage } from "@/components/site";
 import {
   alternatives,
@@ -16,6 +17,18 @@ import {
 } from "@/content/review";
 import { prose } from "@/content/prose";
 import { SITE } from "@/lib/affiliate";
+
+export const metadata: Metadata = {
+  title: SITE.title,
+  description: SITE.description,
+  alternates: { canonical: `${SITE.domain}/` },
+  openGraph: {
+    title: SITE.title,
+    description: SITE.description,
+    url: `${SITE.domain}/`,
+    type: "article",
+  },
+};
 
 export default function HomePage() {
   const jsonLd = {
@@ -68,13 +81,13 @@ export default function HomePage() {
         </p>
 
         <div className="mt-3 max-w-3xl">
-          <p className="font-[family-name:var(--font-display)] text-4xl font-extrabold tracking-tight sm:text-5xl">
-            candy<span className="text-[var(--pink)]">.</span>ai review
+          <p className="mb-2 font-[family-name:var(--font-display)] text-sm font-semibold text-[var(--pink)]">
+            candy<span className="text-white">.</span>ai review
           </p>
-          <h1 className="mt-3 font-[family-name:var(--font-display)] text-2xl font-bold leading-tight text-white sm:text-4xl">
+          <h1 className="font-[family-name:var(--font-display)] text-3xl font-bold leading-tight text-white sm:text-5xl">
             Candy AI Review 2026: 6 Weeks With the AI Girlfriend App
           </h1>
-          <p className="mt-4 max-w-2xl text-base text-[var(--muted)] sm:text-lg">{prose.intro}</p>
+          <p className="mt-4 max-w-2xl text-[17px] text-[var(--text)] sm:text-lg">{prose.intro}</p>
           <div className="mt-6 flex flex-wrap items-center gap-3">
             <CtaButton size="lg">Try Candy AI Free</CtaButton>
             <a
@@ -138,8 +151,8 @@ export default function HomePage() {
                   {alt.score}
                 </p>
               </div>
-              <p className="mt-2 text-sm text-[var(--muted)]">{alt.summary}</p>
-              <ul className="mt-3 space-y-1 text-sm text-[#d4d4d4]">
+              <p className="mt-2 text-sm text-[var(--text)]">{alt.summary}</p>
+              <ul className="mt-3 space-y-1 text-sm text-[var(--text)]">
                 {alt.points.map((point) => (
                   <li key={point}>· {point}</li>
                 ))}
@@ -172,7 +185,7 @@ export default function HomePage() {
           {scoreBreakdown.map((row) => (
             <div key={row.key}>
               <div className="mb-1 flex justify-between text-sm">
-                <span className="text-[#d4d4d4]">{row.label}</span>
+                <span className="text-[var(--text)]">{row.label}</span>
                 <span className="font-semibold text-white">{row.score.toFixed(1)}</span>
               </div>
               <div className="h-2 overflow-hidden rounded-full bg-[var(--bg-soft)]">
@@ -188,7 +201,7 @@ export default function HomePage() {
         <section className="prose-review">
           <h2 id="overview">Candy AI Overview</h2>
           <p>{prose.overview}</p>
-          <ul className="mt-4 space-y-2 text-sm text-[#d4d4d4]">
+          <ul className="mt-4 space-y-2 text-[17px] text-[var(--text)]">
             <li>
               <strong className="text-white">Overall score:</strong> {verdict.score} / 10
             </li>
@@ -215,6 +228,7 @@ export default function HomePage() {
           <p>{prose.safe}</p>
 
           <h2 id="how-to">How to Use Candy AI?</h2>
+          <p>{prose.howToLead}</p>
         </section>
 
         <ol className="mt-4 space-y-3">
@@ -223,7 +237,7 @@ export default function HomePage() {
               <span className="font-[family-name:var(--font-display)] text-lg font-bold text-[var(--pink)]">
                 {i + 1}
               </span>
-              <span className="text-sm leading-relaxed text-[#d4d4d4]">{step}</span>
+              <span className="text-[15px] leading-relaxed text-[var(--text)]">{step}</span>
             </li>
           ))}
         </ol>
@@ -250,12 +264,13 @@ export default function HomePage() {
 
         <section className="prose-review">
           <h2 id="features">What Can Candy AI Do?</h2>
+          <p>{prose.featuresLead}</p>
         </section>
         <div className="mt-4 space-y-4">
           {features.map((feature) => (
             <div key={feature.title} className="card-dark p-5">
               <h3 className="font-[family-name:var(--font-display)] text-xl font-bold">{feature.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-[var(--muted)]">{feature.body}</p>
+              <p className="mt-2 text-[15px] leading-relaxed text-[var(--text)]">{feature.body}</p>
             </div>
           ))}
         </div>
@@ -273,7 +288,7 @@ export default function HomePage() {
         </section>
         <ul className="mt-2 space-y-2 text-sm">
           {pros.map((item) => (
-            <li key={item} className="rounded-xl bg-[var(--bg-soft)] px-3 py-2 text-[#d4d4d4]">
+            <li key={item} className="rounded-xl bg-[var(--bg-soft)] px-3 py-2 text-[var(--text)]">
               <span className="text-[var(--pink)]">+</span> {item}
             </li>
           ))}
@@ -283,7 +298,7 @@ export default function HomePage() {
         </section>
         <ul className="mt-2 space-y-2 text-sm">
           {cons.map((item) => (
-            <li key={item} className="card-dark px-3 py-2 text-[#d4d4d4]">
+            <li key={item} className="card-dark px-3 py-2 text-[var(--text)]">
               <span className="text-[var(--muted)]">−</span> {item}
             </li>
           ))}
@@ -348,14 +363,25 @@ export default function HomePage() {
           <p>{prose.reviewsLead}</p>
         </section>
 
-        <div className="mt-4 space-y-4">
+        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {userThemes.map((item) => (
-            <blockquote key={item.quote} className="card-dark p-5">
-              <p className="text-sm leading-relaxed text-[#d4d4d4]">“{item.quote}”</p>
-              <footer className="mt-3 text-xs text-[var(--muted)]">
-                <span className="text-[var(--score)]">{"★".repeat(item.stars)}</span>
-                {"☆".repeat(5 - item.stars)} · {item.source}
-              </footer>
+            <blockquote key={item.handle} className="card-dark flex flex-col p-5">
+              <div className="mb-3 flex items-center justify-between gap-2">
+                <div className="flex items-center gap-2">
+                  <span
+                    className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-[var(--pink)] to-purple-600 text-xs font-bold text-white"
+                    aria-hidden
+                  >
+                    {item.handle.replace("@", "").slice(0, 1).toUpperCase()}
+                  </span>
+                  <cite className="not-italic text-sm font-semibold text-white">{item.handle}</cite>
+                </div>
+                <span className="text-sm text-[var(--pink)]" aria-label={`${item.stars} out of 5 stars`}>
+                  {"★".repeat(item.stars)}
+                  <span className="text-[var(--line)]">{"★".repeat(5 - item.stars)}</span>
+                </span>
+              </div>
+              <p className="text-[15px] leading-relaxed text-[var(--text)]">{item.quote}</p>
             </blockquote>
           ))}
         </div>
@@ -369,7 +395,7 @@ export default function HomePage() {
               <summary className="cursor-pointer list-none font-semibold text-white marker:content-none">
                 {item.q}
               </summary>
-              <p className="mt-2 text-sm leading-relaxed text-[var(--muted)]">{item.a}</p>
+              <p className="mt-2 text-[15px] leading-relaxed text-[var(--text)]">{item.a}</p>
             </details>
           ))}
         </div>

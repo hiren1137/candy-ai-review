@@ -5,7 +5,7 @@ import { SITE } from "@/lib/affiliate";
 export const metadata: Metadata = {
   title: `Privacy Policy | ${SITE.name}`,
   description: `Privacy policy for ${SITE.name}.`,
-  alternates: { canonical: "/privacy-policy" },
+  alternates: { canonical: `${SITE.domain}/privacy-policy` },
 };
 
 export default function PrivacyPage() {

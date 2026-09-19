@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
-import { Outfit, Manrope } from "next/font/google";
+import { Inter, Sora } from "next/font/google";
 import "./globals.css";
 import { SiteFooter, SiteHeader } from "@/components/site";
 import { SITE } from "@/lib/affiliate";
 
-const display = Outfit({
+const display = Sora({
   subsets: ["latin"],
   variable: "--font-display",
   weight: ["500", "600", "700", "800"],
 });
 
-const body = Manrope({
+const body = Inter({
   subsets: ["latin"],
   variable: "--font-body",
   weight: ["400", "500", "600", "700"],
@@ -18,15 +18,14 @@ const body = Manrope({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.domain),
-  title: SITE.title,
+  title: {
+    default: SITE.title,
+    template: `%s | ${SITE.name}`,
+  },
   description: SITE.description,
-  alternates: { canonical: "/" },
   openGraph: {
-    title: SITE.title,
-    description: SITE.description,
-    url: SITE.domain,
     siteName: SITE.name,
-    type: "article",
+    type: "website",
   },
   robots: { index: true, follow: true },
 };

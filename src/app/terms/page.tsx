@@ -5,7 +5,7 @@ import { SITE } from "@/lib/affiliate";
 export const metadata: Metadata = {
   title: `Terms | ${SITE.name}`,
   description: `Terms of use for ${SITE.name}.`,
-  alternates: { canonical: "/terms" },
+  alternates: { canonical: `${SITE.domain}/terms` },
 };
 
 export default function TermsPage() {

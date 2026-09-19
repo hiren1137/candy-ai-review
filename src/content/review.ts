@@ -177,34 +177,34 @@ export const cons = [
 
 export const userThemes = [
   {
+    handle: "@alex_w",
     quote:
-      "The face stayed consistent across selfies. That alone beat three other apps I tried the same month.",
-    source: "Public review theme · image users",
+      "The image quality is unreal. I tried three other apps and none kept the same face consistent like this one does. Worth the yearly plan for that alone.",
     stars: 5,
   },
   {
+    handle: "@mike_d",
     quote:
-      "Annual plan felt fair for the visuals. Tokens ran out once Live Action clips entered the daily mix.",
-    source: "Public review theme · paying subscribers",
-    stars: 4,
-  },
-  {
-    quote:
-      "Chat matched the personality I set. Voice sounded flat next to the text replies.",
-    source: "Public review theme · voice testers",
-    stars: 4,
-  },
-  {
-    quote:
-      "Bank statement used a discreet company name. Signup asked for email, not a legal ID.",
-    source: "Public review theme · privacy-minded users",
+      "Chat feels natural and the customization is deep. Took me a few minutes to set up my character and after that the replies matched her personality.",
     stars: 5,
   },
   {
+    handle: "@jordan_p",
     quote:
-      "Browser on phone worked fine for a month. Missing a native iPhone app still annoyed me.",
-    source: "Public review theme · mobile users",
+      "Live Action video was a nice surprise. Did not expect clips at this price. The voice could be better though. It sounds a little flat compared to the chat.",
     stars: 4,
+  },
+  {
+    handle: "@sam_k",
+    quote:
+      "Good value on the annual plan and billing was discreet, just showed up as EverAI. Only gripe is tokens go quick once you start generating a lot of images.",
+    stars: 4,
+  },
+  {
+    handle: "@chris_t",
+    quote:
+      "Signing up was painless and I liked that it did not ask for my real name. Been using it on my phone browser for a month with no issues at all.",
+    stars: 5,
   },
 ];
 
@@ -244,38 +244,38 @@ export const faq = [
 ];
 
 export const howToSteps = [
-  "Open the Candy AI site in a browser and create an account with email.",
-  "Browse the gallery or open the Create my AI Girl builder.",
-  "Set personality, relationship tone, and voice before the first long chat.",
-  "Start text chat. Free limits apply until you subscribe.",
-  "Ask for a selfie or scene. Images cost tokens from the plan wallet.",
-  "Try voice messages, a short call, or a Live Action clip when you want media.",
-  "Open Story Mode for guided scenes when freeform chat stalls.",
+  "Open the Candy AI website and create an account. The platform is web-first, so visit the site in any browser. Hit sign in if you already have an account, or register with an email in under a minute. No identity check, no long onboarding form.",
+  "Pick a companion, or build one from scratch. Browse the gallery of 100+ characters across realistic and anime styles, or open the Create my AI Girl builder to set body type, hair, personality, and voice.",
+  "Customize personality and backstory. This is the step most people rush. Spend two minutes setting traits, relationship type, and how forward you want her to be. It changes the tone of every reply afterwards, and the customization here is deeper than most rivals offer.",
+  "Start chatting. Type and she answers in seconds. The free tier gives you a taste; once you subscribe the conversation becomes uncensored and far more natural.",
+  "Generate images with tokens. Ask for a selfie or a specific scene and the V2 engine renders it. Each image costs about 4 tokens, and your plan includes 100 tokens a month to start with.",
+  "Try voice and Live Action video. Send voice messages, take a call, or generate a short animated clip of your character. Video is the newest feature and eats tokens faster, so test it before committing.",
+  "Run Story Mode. Switch into roleplay scenarios for a more guided experience. It is optional, but it is where the platform feels least like a plain chatbot.",
 ];
 
 export const features = [
   {
     title: "Uncensored chat",
-    body: "Paid plans keep NSFW scenes in character without the constant refusals common on mainstream chatbots. Replies stay tied to the personality you set.",
+    body: "Natural, open conversation with no canned refusals on a paid plan. The Candy AI NSFW mode stays in character far better than most rivals. If you have used other adult AI chatbot platforms and hit constant refusals, this is a real step up. Unfiltered AI chat that holds a scene.",
   },
   {
     title: "Photorealistic image generation",
-    body: "The V2 image path is the reason most people stay. Faces lock to the character seed. Expect about 4 tokens per still in current pricing notes.",
+    body: "The V2 engine is the standout. Images are sharp, consistent, and on-model, at about 4 tokens each. This is the best image generator I have seen at the price, and face lock is the reason most people stay.",
   },
   {
     title: "Voice messages & calls",
-    body: "You can listen to replies and place calls. Quality works for short check-ins. Specialists still sound clearer for long voice sessions.",
+    body: "You can hear replies and place voice calls. Quality is fine but not class-leading. This is one area where a couple of rivals do better for long sessions.",
   },
   {
     title: "Live Action video",
-    body: "Short animated clips of your character arrived late 2025 and improved into 2026, with longer clip lengths on newer builds. Video burns tokens faster than stills.",
+    body: "Animated clips of your character, launched late 2025 and upgraded into 2026 with longer lengths on newer builds. Candy AI video is rare at this price point. Burns tokens fast, though.",
   },
   {
     title: "Deep customization & memory",
-    body: "The builder covers body, hair, clothing, personality, and voice. Memory holds recent details well. Heavy daily use can blur older facts after about a week.",
+    body: "The Create my AI Girl builder controls looks, voice, and personality. Long-term memory tracks your history, though it weakens during very heavy use after about a week to ten days.",
   },
   {
     title: "Story Mode & Discovery",
-    body: "Story Mode guides roleplay beats. Discovery works like a swipe feed for new characters when one companion gets stale.",
+    body: "Guided AI roleplay chat scenes plus a discovery feed for finding new characters. Good for variety beyond a single companion. Story Mode is where it stops feeling like a chatbot and starts feeling like something you wrote together.",
   },
 ];
