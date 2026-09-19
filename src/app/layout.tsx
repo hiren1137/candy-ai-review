@@ -28,6 +28,9 @@ export const metadata: Metadata = {
     type: "website",
   },
   robots: { index: true, follow: true },
+  verification: {
+    google: "TH_b-W1560-K3IV-1nz2laGwJpvVRCr7o-G7n5OEX9c",
+  },
 };
 
 export default function RootLayout({
