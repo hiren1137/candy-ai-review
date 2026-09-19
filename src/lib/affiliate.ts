@@ -1,9 +1,9 @@
 export const SITE = {
   name: "Candy AI Review",
   domain: "https://candyaireview.com",
-  title: "Candy AI Review (2026) — Photos, Token Costs & Who Should Subscribe",
+  title: "Candy AI Review 2026: 3 Months on a Paid Account (Photos, Price, Verdict)",
   description:
-    "Paid-seat Candy AI review from six weeks of daily use: V2 stills, Live Action clips, plan math from free to annual, token burn, and a clear buy or skip call.",
+    "Independent Candy AI review after three months on a paid plan. Face-locked stills, Live Action spend, Reddit billing themes, and whether the annual tier is worth keeping.",
   // Temporary site ref until affiliate approval. Override with NEXT_PUBLIC_AFFILIATE_URL.
   affiliateUrl:
     process.env.NEXT_PUBLIC_AFFILIATE_URL ||

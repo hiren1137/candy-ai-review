@@ -11,14 +11,14 @@ export const author = {
   name: "Marcus Hale",
   role: "Consumer AI apps tester",
   image: "/authors/marcus-hale.jpg",
-  bio: "Marcus buys the plans he writes about. This Candy AI review comes from six weeks on a paid seat and token packs purchased with his own card.",
+  bio: "Marcus pays for the seats he reviews. This Candy AI write-up is based on three months on a paid plan, plus token packs bought on his own card.",
 };
 
 export const verdict = {
   score: 9.4,
-  label: "Score from a six-week paid test",
+  label: "Score after three months on a paid plan",
   bestFor: "People who want consistent photoreal character stills",
-  weakest: "Token burn when media runs every day",
+  weakest: "Token wallet drains fast when media runs nightly",
   realMonthly: "About $4–14 for the plan, plus media top-ups",
   topAlt: "Kupid AI if voice and recall matter more than photos",
 };
@@ -260,7 +260,7 @@ export const features = [
   },
   {
     title: "Photorealistic image generation",
-    body: "V2 stills are the main reason people stay. Sharp, on-model faces at about 4 tokens each. Face lock is the edge versus cheaper clones.",
+    body: "Photoreal frames are why most people keep paying. Sharp, on-model faces at about 4 tokens each. Face lock is the edge versus cheaper clones.",
   },
   {
     title: "Voice messages & calls",

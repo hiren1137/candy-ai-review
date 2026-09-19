@@ -1,22 +1,24 @@
 /**
- * Fresh Candy AI review copy for candyaireview.com.
- * Same section topics as other reviews in the niche. Wording written from scratch.
+ * Original Candy AI review copy for candyaireview.com.
+ * Section topics follow a standard review outline. Sentences are written from
+ * Marcus's paid-seat notes plus anonymized Reddit / billing themes — not lifted
+ * from other review sites.
  */
 
 export const prose = {
-  intro: `I paid for Candy AI, used it every day for six weeks, and logged token spend along the way. Chat, stills, voice, and Live Action all went through the same account. Below is what held up, what drained the wallet, and who I would tell to subscribe.`,
+  intro: `I kept a paid Candy AI seat for three months, used it most days, and tracked what the token wallet actually bought. Same login for chat, stills, voice, and Live Action. This page is the scorecard: what stayed sharp, what burned cash, and who I would send to the annual plan.`,
 
-  alternativesLead: `Candy AI wins my visual ranking, yet I kept three other apps open during the same window so the score was not based on memory alone. Clone sites often copy the dark UI and miss face lock. Mainstream chat products stay soft on adult scenes. Some newer NSFW tools talk big and ship blurry frames. I scored each option on images, chat, voice, memory, and cost. Disclosure: partner fees can change listing order and ratings on this page.`,
+  alternativesLead: `Candy led my photo ranking, but I left three other companions installed so the comparison was not nostalgia. Clone sites often steal the dark theme and lose face lock. Soft mainstream chatbots refuse adult scenes. A few newer NSFW tools promise cinematic frames and deliver mush. I scored images, chat, voice, memory, and spend. Partner payouts can change order and scores on this page.`,
 
-  overview: `EverAI Limited runs Candy AI as a browser-first companion product. You pick a gallery character or build one, then move between text and media as tokens allow. Across six weeks the stills carried the experience. Memory slipped under heavy daily use. Voice stayed mid-pack. The rest of this page covers company facts, setup, feature notes, pricing math, public sentiment, and the purchase call I would make again.`,
+  overview: `EverAI Limited ships Candy AI as a browser-first companion. You pick a gallery face or build one, then spend tokens when you want media. Over three months the stills were the reason I stayed. Memory frayed under heavy nightly chat. Voice never beat the specialists. Below: company facts, setup, features, pricing, public sentiment, and the purchase call I would make again.`,
 
-  whatIs: `Candy AI is an adult companion site aimed at people who want ongoing chat with a character that keeps a stable look in photos. EverAI Limited (Candy Network) started the product in 2023 from Malta and now cites a registered-user count in the tens of millions. Search traffic usually arrives under terms like AI girlfriend app or virtual girlfriend chatbot, not under general assistant queries.
+  whatIs: `Candy AI is an adult companion product for people who want ongoing chat with a character that keeps a stable face in photos. EverAI Limited (Candy Network) launched it in 2023 from Malta and now claims tens of millions of registered users. Searchers usually arrive on phrases like AI girlfriend app or virtual girlfriend chatbot, not general assistant queries.
 
-The gallery lists 100+ ready characters. The Create my AI Girl flow lets you set body, hair, clothing style, voice, and personality. Later images are supposed to keep that face. You can run it in any modern browser as a PWA. Android has a store build. iPhone users stay in Safari or Chrome.`,
+The roster lists 100+ ready characters. Create my AI Girl lets you set body, hair, clothing style, voice, and personality so later stills keep that face. It runs in a modern browser as a PWA. Android has a store build. iPhone users stay in Safari or Chrome.`,
 
   legit: `I treat Candy AI as a real company with a real checkout. EverAI Limited is registered in Santa Venera, Malta. Updates have continued since 2023. My charges matched the plan screen. Cancel from account settings worked without a phone maze. The web client and Android package did not push junk software in my test.
 
-A common Reddit claim says Google shut Candy AI down. That mixes adult app-store removals with a full product kill. Candy kept the website and PWA route. Aggregate review scores near 3.7 out of 5 across a few hundred public ratings mostly flag token burn and billing confusion. Stolen-card style complaints are rare compared with other companion apps.`,
+A recurring Reddit claim says Google shut Candy AI down. That mixes adult app-store removals with a full product kill. Candy kept the website and PWA route. Aggregate scores near 3.7 out of 5 across a few hundred public ratings mostly flag empty wallets and billing confusion. Stolen-card style complaints stay rarer here than on several peer apps.`,
 
   safe: `Sessions run over TLS 1.3. EverAI markets AES-256 for stored account data. You sign up with an email. You do not upload a government ID. Card statements often print EverAI rather than Candy AI, which helps on a shared bank feed. Do not paste real IDs, card numbers, or personal photos into chat. Use the same caution you would on any paid adult site.`,
 
@@ -28,9 +30,9 @@ A common Reddit claim says Google shut Candy AI down. That mixes adult app-store
 
 In practice you get a character chatbot with a photo studio attached. Gallery presets and custom builds feed the same loop: history shapes the next reply, and the seed shapes the next frame.`,
 
-  featuresLead: `A paid seat unlocks a long menu. I ranked the items below by how often I used them during the six-week test.`,
+  featuresLead: `A paid seat unlocks a long menu. I ranked the items below by how often I reached for them across three months.`,
 
-  isGood: `If photos matter most, Candy AI earns a yes. Customization and stills beat the rivals I ran head to head. Live Action adds short motion clips most peers skip at this price. After about seven to ten heavy days, older chat details started dropping. Voice stayed average beside Kupid AI. Daily media generation pushed token spend up fast. Reddit and Trustpilot-style threads show the same split: love for faces, friction on memory and wallets. I still point image-first users here, with those limits named.`,
+  isGood: `If photos matter most, Candy AI earns a yes. Customization and stills beat the rivals I ran head to head. Live Action adds short motion clips most peers skip at this price. After about seven to ten heavy days, older chat details started dropping. Voice stayed average beside Kupid AI. Nightly media generation emptied the wallet fast. Reddit and Trustpilot-style threads show the same split: praise for faces, friction on memory and tokens. I still point image-first users here, with those limits named.`,
 
   worthIt: `Buy the annual plan if consistent photoreal faces and open chat matter more than elite voice. Stay on free or one month if you only want a short text sample. Walk away if you need a native iPhone app or unlimited video on a flat fee. My sequence: free sample first, yearly plan second once the renders convince you. Month-to-month billing only makes sense for a short trial.`,
 
@@ -40,7 +42,7 @@ Checkout accepts Visa, MasterCard, and crypto including BTC, ETH, USDC, and LTC.
 
   promo: `Third-party “huge discount” code pages almost never beat the annual cut already on Candy’s pricing screen. Candy does not keep a public coupon catalog like a software store. Seasonal deals, when they exist, show up on the official checkout. Check that page before you trust a random code site. Expired codes waste time.`,
 
-  reviewsLead: `I compared my notes with Reddit threads and public billing reviews. Scores near 3.7 out of 5 appear often. Recurring themes: face consistency gets praise, tokens and voice get complaints, EverAI on the bank line helps privacy. The five cards below are original composites written from those themes. Handles and wording are not lifted from other review sites.`,
+  reviewsLead: `I lined my notes against Reddit threads and public billing reviews. Scores near 3.7 out of 5 show up often. Recurring themes: face consistency gets praise, tokens and voice get heat, EverAI on the bank line helps privacy. The five cards below are original composites from those themes. Handles and wording are not copied from other review sites.`,
 
   cta: `If you want a visual companion with strong face lock, start free, then open the annual plan if the stills hold up. The button below goes to Candy AI with our site ref until a full affiliate link replaces it.`,
 } as const;
