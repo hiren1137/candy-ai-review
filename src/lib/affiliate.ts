@@ -1,9 +1,9 @@
 export const SITE = {
   name: "Candy AI Review",
   domain: "https://candyaireview.com",
-  title: "Candy AI Review 2026: Features, Pricing & Is It Worth It?",
+  title: "Candy AI Review (2026) — Photos, Token Costs & Who Should Subscribe",
   description:
-    "Candy AI review 2026 after 6 weeks of testing: image generation, Live Action video, pricing from $3.99/mo, real costs, safety and the best alternatives.",
+    "Paid-seat Candy AI review from six weeks of daily use: V2 stills, Live Action clips, plan math from free to annual, token burn, and a clear buy or skip call.",
   // Temporary site ref until affiliate approval. Override with NEXT_PUBLIC_AFFILIATE_URL.
   affiliateUrl:
     process.env.NEXT_PUBLIC_AFFILIATE_URL ||
