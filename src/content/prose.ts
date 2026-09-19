@@ -38,7 +38,7 @@ In practice you get a character chatbot with a photo studio attached. Gallery pr
 
 Checkout accepts Visa, MasterCard, and crypto including BTC, ETH, USDC, and LTC. Token packs are separate one-off purchases. Budget about 4 tokens per still. People who generate images and video most days often land near $25–$60 a month after top-ups.`,
 
-  promo: `Blog posts promising 90% off almost never beat the annual discount already on Candy’s pricing page. Candy does not run a classic public coupon catalog. Seasonal deals, when they exist, show up on the official checkout. Check that page before you trust a random code site. Expired codes waste time.`,
+  promo: `Third-party “huge discount” code pages almost never beat the annual cut already on Candy’s pricing screen. Candy does not keep a public coupon catalog like a software store. Seasonal deals, when they exist, show up on the official checkout. Check that page before you trust a random code site. Expired codes waste time.`,
 
   reviewsLead: `I compared my notes with Reddit threads and public billing reviews. Scores near 3.7 out of 5 appear often. Recurring themes: face consistency gets praise, tokens and voice get complaints, EverAI on the bank line helps privacy. The five cards below are original composites written from those themes. Handles and wording are not lifted from other review sites.`,
 
