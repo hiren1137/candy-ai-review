@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f3efe6;
+  --paper-deep: #e8e1d4;
+  --ink: #1c1914;
+  --muted: #5c564c;
+  --line: #cfc5b4;
+  --accent: #0f6b5c;
+  --accent-fg: #f7f4ee;
+  --score: #b45309;
+  --hero-glow: rgba(15, 107, 92, 0.12);
+}
+
+@theme inline {
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+}
+
+body {
+  background:
+    radial-gradient(1200px 500px at 10% -10%, var(--hero-glow), transparent 60%),
+    linear-gradient(180deg, #f7f3ea 0%, var(--paper) 40%, #efe8db 100%);
+  color: var(--ink);
+  font-family: var(--font-body), Georgia, serif;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+  letter-spacing: -0.02em;
+}
+
+.prose-review p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+  color: var(--ink);
+}
+
+.prose-review h2 {
+  margin-top: 2.75rem;
+  margin-bottom: 0.85rem;
+  font-size: 1.65rem;
+  line-height: 1.2;
+}
+
+.prose-review h3 {
+  margin-top: 1.75rem;
+  margin-bottom: 0.6rem;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 640px) {
+  .prose-review h2 {
+    font-size: 1.9rem;
+  }
+}
