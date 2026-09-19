@@ -13,7 +13,6 @@ export default function PrivacyRedirectPage() {
       <Link href="/privacy-policy/" className="mt-4 inline-block text-[var(--pink)] hover:underline">
         Continue to Privacy Policy →
       </Link>
-      <meta httpEquiv="refresh" content="0;url=/privacy-policy/" />
     </div>
   );
 }
