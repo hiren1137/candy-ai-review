@@ -1,10 +1,5 @@
 {
   "name": "candy-ai-review",
   "install": "npm ci",
-  "terminals": [
-    {
-      "name": "dev-server",
-      "command": "npm run dev"
-    }
-  ]
+  "start": "npm run dev"
 }
