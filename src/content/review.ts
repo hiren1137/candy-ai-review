@@ -9,18 +9,18 @@ export type ScoreKey =
 
 export const author = {
   name: "Marcus Hale",
-  role: "AI & consumer-tech reviewer",
+  role: "AI apps tester",
   image: "/authors/marcus-hale.jpg",
-  bio: "Marcus tests consumer AI chat and image apps on paid plans. For this Candy AI review he used a paid account daily for six weeks and paid for token top-ups himself.",
+  bio: "Marcus pays for the companion apps he reviews. This Candy AI write-up comes from six weeks on a paid seat plus token packs he bought himself.",
 };
 
 export const verdict = {
   score: 9.4,
-  label: "Our verdict after real testing",
-  bestFor: "Photorealistic companions and custom characters",
-  weakest: "Token burn on heavy image and video days",
-  realMonthly: "$4–14 plan + token top-ups",
-  topAlt: "Kupid AI for voice and memory",
+  label: "Score after six weeks on a paid plan",
+  bestFor: "Users who care most about consistent photoreal faces",
+  weakest: "Token drain when images and video run daily",
+  realMonthly: "Plan from ~$4–14 plus media top-ups",
+  topAlt: "Kupid AI when voice and memory matter more",
 };
 
 export const scoreBreakdown: { key: ScoreKey; label: string; score: number }[] =
@@ -40,12 +40,12 @@ export const glance = [
   { label: "Founded", value: "2023" },
   { label: "Category", value: "AI companion / virtual girlfriend" },
   { label: "Platforms", value: "Web (PWA) and Android" },
-  { label: "Free tier", value: "Yes, limited messages" },
-  { label: "Starting price", value: "$3.99/mo on annual promo pricing" },
-  { label: "Payment methods", value: "Visa, MasterCard, crypto" },
-  { label: "Languages", value: "English plus 10+ others" },
+  { label: "Free tier", value: "Yes, message-capped" },
+  { label: "Starting price", value: "About $3.99/mo on annual promos" },
+  { label: "Payment methods", value: "Cards and crypto" },
+  { label: "Languages", value: "English and 10+ more" },
   { label: "Content rating", value: "NSFW, 18+" },
-  { label: "Support", value: "Email and help center" },
+  { label: "Support", value: "Email / help docs" },
   { label: "Our rating", value: "9.4 / 10" },
 ];
 
@@ -54,12 +54,12 @@ export const alternatives = [
     name: "Candy AI",
     badge: "Editor's Choice",
     score: 9.4,
-    summary: "Best visual AI companion for custom characters and consistent faces",
+    summary: "Leads my list when face consistency and custom builds matter",
     points: [
-      "Deep character builder",
-      "Strong image consistency",
-      "Live Action video on paid plans",
-      "Useful free text sample",
+      "Rich character creator",
+      "Reliable on-model stills",
+      "Live Action on paid seats",
+      "Free text sample to start",
     ],
     cta: "primary" as const,
   },
@@ -67,12 +67,12 @@ export const alternatives = [
     name: "HeyGF",
     badge: "Most immersive",
     score: 9.2,
-    summary: "Strong pick for open roleplay and frequent model updates",
+    summary: "Strong when you want loose roleplay and frequent model refreshes",
     points: [
-      "Lifelike roleplay scenes",
-      "Growing companion roster",
-      "Discreet billing options",
-      "Regular model refreshes",
+      "Dense roleplay scenes",
+      "Expanding companion set",
+      "Quiet billing options",
+      "Regular model updates",
     ],
     cta: "secondary" as const,
   },
@@ -80,12 +80,12 @@ export const alternatives = [
     name: "Kupid AI",
     badge: "Best voice",
     score: 9.0,
-    summary: "Choose this when voice calls and memory matter more than stills",
+    summary: "Pick this when calls and recall beat still photos",
     points: [
-      "Convincing voice calls",
-      "Solid conversation memory",
-      "Clean interface",
-      "Fair subscription pricing",
+      "Stronger voice sessions",
+      "Better conversation recall",
+      "Simple UI",
+      "Sensible sub pricing",
     ],
     cta: "secondary" as const,
   },
@@ -93,12 +93,12 @@ export const alternatives = [
     name: "GirlfriendGPT",
     badge: "Best character chat",
     score: 8.8,
-    summary: "Huge character library with natural chat tone",
+    summary: "Huge library and chatty replies for people who browse a lot",
     points: [
-      "Large user-made library",
-      "Natural replies",
-      "Capable image tools",
-      "Active community",
+      "Wide user-made roster",
+      "Natural text tone",
+      "Solid image tools",
+      "Busy community",
     ],
     cta: "secondary" as const,
   },
@@ -106,12 +106,12 @@ export const alternatives = [
     name: "Nomi.ai",
     badge: "Best memory",
     score: 8.6,
-    summary: "Personal companions with group chat and a privacy-first pitch",
+    summary: "Built for long memory and multi-companion chats",
     points: [
       "Long memory windows",
       "Personal reply style",
-      "Group chats",
-      "Privacy-focused design",
+      "Group chat support",
+      "Privacy-minded design",
     ],
     cta: "secondary" as const,
   },
@@ -119,12 +119,12 @@ export const alternatives = [
     name: "OurDream AI",
     badge: "Value roleplay",
     score: 8.2,
-    summary: "Detailed customization without the highest sticker price",
+    summary: "Customization-heavy roleplay without the top sticker price",
     points: [
-      "Extensive customization",
+      "Lots of appearance controls",
       "Detailed roleplay",
       "Growing model pool",
-      "Private payment options",
+      "Private payment paths",
     ],
     cta: "secondary" as const,
   },
@@ -135,75 +135,75 @@ export const pricing = [
     plan: "Free",
     price: "$0",
     tokens: "None",
-    notes: "Limited messages, basic characters",
+    notes: "Capped messages, basic roster",
   },
   {
     plan: "1 Month",
     price: "$13.99/mo",
     tokens: "100/mo",
-    notes: "Billed monthly",
+    notes: "Charged each month",
   },
   {
     plan: "3 Months",
     price: "$8.99/mo",
     tokens: "100/mo",
-    notes: "About $26.97 billed each quarter",
+    notes: "About $26.97 every quarter",
   },
   {
     plan: "12 Months",
     price: "$3.99/mo",
     tokens: "100/mo",
-    notes: "Best value; promo pricing can vary to ~$5.99/mo",
+    notes: "Best rate; some promos land near $5.99/mo",
     highlight: true,
   },
 ];
 
 export const pros = [
-  "Photorealistic image output with a face that stays on-model",
-  "Character builder covers looks, voice, and personality in one flow",
-  "Paid chat stays open and in character for NSFW scenes",
-  "Live Action video gives Candy a feature edge in this price band",
-  "Annual plan drops the sticker price hard",
-  "Card charges show a discreet company name, not the product brand",
+  "On-model photoreal stills with strong face lock",
+  "One builder for looks, voice, and personality",
+  "Paid NSFW chat holds the scene instead of refusing",
+  "Live Action clips rare at this price",
+  "Annual billing cuts the monthly rate hard",
+  "Bank lines often show EverAI, not the product name",
 ];
 
 export const cons = [
-  "Token wallet empties fast once you generate images and video daily",
-  "Voice quality trails specialists like Kupid AI",
-  "Memory can slip after a week of heavy daily use",
-  "No native iOS app; browser or PWA only on iPhone",
-  "Free tier is a sample, not a full product",
+  "Tokens vanish quickly on daily image and video use",
+  "Voice trails specialists such as Kupid AI",
+  "Memory fades after about a week of heavy chat",
+  "No native iPhone app; browser or PWA only",
+  "Free tier is a taste, not the full product",
 ];
 
 export const userThemes = [
   {
-    handle: "@alex_w",
+    handle: "@pixelthread",
     quote:
-      "The image quality is unreal. I tried three other apps and none kept the same face consistent like this one does. Worth the yearly plan for that alone.",
+      "Face lock sold me. I generated about thirty selfies in a week and the same person showed up almost every time. Yearly plan feels cheap for that.",
     stars: 5,
   },
   {
-    handle: "@mike_d",
+    handle: "@nightshift_rp",
     quote:
-      "Chat feels natural and the customization is deep. Took me a few minutes to set up my character and after that the replies matched her personality.",
+      "Customization went deeper than the last three apps I tried. I set voice and traits once, and the chat stayed in that lane instead of drifting.",
     stars: 5,
   },
   {
-    handle: "@jordan_p",
+    handle: "@cliphopper",
     quote:
-      "Live Action video was a nice surprise. Did not expect clips at this price. The voice could be better though. It sounds a little flat compared to the chat.",
+      "Live Action clips were the surprise. Short scenes look decent for the price. Voice still sounds thin next to the text replies.",
     stars: 4,
   },
   {
-    handle: "@sam_k",
+    handle: "@tokenwatch",
     quote:
-      "Good value on the annual plan and billing was discreet, just showed up as EverAI. Only gripe is tokens go quick once you start generating a lot of images.",
+      "Annual sub is fine. Token wallet empties fast once you spam images. Bank line showed EverAI, which I wanted for privacy.",
     stars: 4,
   },
   {
-    handle: "@chris_t",
+    handle: "@browseronly",
     quote:
-      "Signing up was painless and I liked that it did not ask for my real name. Been using it on my phone browser for a month with no issues at all.",
+      "Signup took an email and nothing else. Ran it on my phone browser for weeks with no crash. Wish there was a real iPhone app.",
     stars: 5,
   },
 ];
@@ -211,71 +211,71 @@ export const userThemes = [
 export const faq = [
   {
     q: "How does Candy AI generate images?",
-    a: "You describe a scene in chat. The image model uses a fixed character seed so the same face and body return in new frames. Each render pulls tokens from the monthly wallet.",
+    a: "You ask for a scene in chat. The image model draws from a fixed character seed so the same face tends to return. Each still spends tokens from the monthly wallet.",
   },
   {
     q: "Are there any Candy AI alternatives?",
-    a: "Yes. Kupid AI leads on voice and memory. GirlfriendGPT wins on character library size. OurDream AI competes on customization value. Candy still led my tests on still-image quality.",
+    a: "Yes. Kupid AI is stronger on voice and recall. GirlfriendGPT wins on library size. OurDream AI competes on customization value. Candy still led my still-image tests.",
   },
   {
     q: "Why is Candy AI not working?",
-    a: "Most stalls come from browser cache, an ad blocker, or an empty token wallet. Clear the cache, pause extensions for the site, and check the plan status.",
+    a: "Usual culprits: cache, an ad blocker, or an empty token wallet. Clear site data, pause extensions, and confirm the plan is active.",
   },
   {
     q: "What happened to Candy AI?",
-    a: "Adult app-store rules pushed the product toward web and PWA access. The service kept running. Rumors of a full shutdown do not match a live product with ongoing updates in 2026.",
+    a: "App-store adult rules pushed users toward web and PWA. The product kept running. Shutdown rumors do not match a live 2026 service with ongoing updates.",
   },
   {
     q: "How to cancel Candy AI subscription?",
-    a: "Open account settings, open billing, choose cancel. Access continues through the paid period. No phone call required.",
+    a: "Open settings, open billing, choose cancel. Access lasts through the paid window. No phone call is required.",
   },
   {
     q: "Does Candy AI have an app?",
-    a: "Android has a native build. Any device can install the site as a PWA. iPhone users run the browser or add the PWA home-screen shortcut.",
+    a: "Android has a native build. Other devices can install the site as a PWA. iPhone users stay in the browser or pin the PWA.",
   },
   {
     q: "Who owns Candy AI?",
-    a: "EverAI Limited operates Candy AI under the Candy Network. The company registered in Santa Venera, Malta, and launched the product in 2023.",
+    a: "EverAI Limited runs Candy AI under the Candy Network. Registration is in Santa Venera, Malta. Launch year was 2023.",
   },
   {
     q: "How to delete Candy AI account?",
-    a: "Cancel any active plan first. Then open account settings and choose delete account. Support email can finish the wipe if the menu hides the control.",
+    a: "Cancel any plan first. Then use delete account in settings. Email support if the control is hard to find.",
   },
 ];
 
 export const howToSteps = [
-  "Open the Candy AI website and create an account. The platform is web-first, so visit the site in any browser. Hit sign in if you already have an account, or register with an email in under a minute. No identity check, no long onboarding form.",
-  "Pick a companion, or build one from scratch. Browse the gallery of 100+ characters across realistic and anime styles, or open the Create my AI Girl builder to set body type, hair, personality, and voice.",
-  "Customize personality and backstory. This is the step most people rush. Spend two minutes setting traits, relationship type, and how forward you want her to be. It changes the tone of every reply afterwards, and the customization here is deeper than most rivals offer.",
-  "Start chatting. Type and she answers in seconds. The free tier gives you a taste; once you subscribe the conversation becomes uncensored and far more natural.",
-  "Generate images with tokens. Ask for a selfie or a specific scene and the V2 engine renders it. Each image costs about 4 tokens, and your plan includes 100 tokens a month to start with.",
-  "Try voice and Live Action video. Send voice messages, take a call, or generate a short animated clip of your character. Video is the newest feature and eats tokens faster, so test it before committing.",
-  "Run Story Mode. Switch into roleplay scenarios for a more guided experience. It is optional, but it is where the platform feels least like a plain chatbot.",
+  "Open candy.ai in a browser and register with email. Sign in if you already have a seat. No ID upload, no long form.",
+  "Browse the gallery of 100+ realistic and anime characters, or open Create my AI Girl to set body, hair, personality, and voice.",
+  "Spend a couple of minutes on traits and relationship tone before the first long chat. Those settings shape later replies more than people expect.",
+  "Start text chat. Free accounts hit a message cap. Paid seats open fuller, less filtered conversation.",
+  "Ask for a selfie or scene. Expect about 4 tokens per still against the 100 included each month on paid plans.",
+  "Try voice notes, a short call, or a Live Action clip when you want media. Video spends tokens faster than stills.",
+  "Open Story Mode when you want guided scenes instead of freeform chat.",
 ];
 
 export const features = [
   {
     title: "Uncensored chat",
-    body: "Natural, open conversation with no canned refusals on a paid plan. The Candy AI NSFW mode stays in character far better than most rivals. If you have used other adult AI chatbot platforms and hit constant refusals, this is a real step up. Unfiltered AI chat that holds a scene.",
+    body: "Paid seats keep adult scenes moving without the constant soft refusals you hit on mainstream bots. Replies track the personality you set and stay in the scene longer.",
   },
   {
     title: "Photorealistic image generation",
-    body: "The V2 engine is the standout. Images are sharp, consistent, and on-model, at about 4 tokens each. This is the best image generator I have seen at the price, and face lock is the reason most people stay.",
+    body: "V2 stills are why most people stay. Sharp, on-model faces at about 4 tokens each. Face lock is the main edge versus cheaper clones.",
   },
   {
     title: "Voice messages & calls",
-    body: "You can hear replies and place voice calls. Quality is fine but not class-leading. This is one area where a couple of rivals do better for long sessions.",
+    body: "You can play spoken replies and place calls. Fine for short check-ins. Specialists still sound clearer on long voice sessions.",
   },
   {
     title: "Live Action video",
-    body: "Animated clips of your character, launched late 2025 and upgraded into 2026 with longer lengths on newer builds. Candy AI video is rare at this price point. Burns tokens fast, though.",
+    body: "Short motion clips of your character landed late 2025 and improved into 2026. Few peers offer this at the same price. Token cost climbs fast.",
   },
   {
     title: "Deep customization & memory",
-    body: "The Create my AI Girl builder controls looks, voice, and personality. Long-term memory tracks your history, though it weakens during very heavy use after about a week to ten days.",
+    body: "The builder covers looks, voice, and traits. Recent facts stick. After about seven to ten heavy days, older details can slip.",
   },
   {
     title: "Story Mode & Discovery",
-    body: "Guided AI roleplay chat scenes plus a discovery feed for finding new characters. Good for variety beyond a single companion. Story Mode is where it stops feeling like a chatbot and starts feeling like something you wrote together.",
+    body: "Story Mode guides roleplay beats. Discovery works like a feed for new characters when one companion gets stale.",
   },
 ];

@@ -33,8 +33,8 @@ export function SiteHeader() {
 
 export function SiteFooter() {
   return (
-    <footer className="mt-20 border-t border-[var(--line)] bg-black">
-      <div className="mx-auto flex max-w-5xl flex-col gap-4 px-4 py-10 text-sm text-[var(--muted)] sm:px-6">
+    <footer className="mt-0 border-t border-[var(--line)] bg-black">
+      <div className="mx-auto flex max-w-5xl flex-col gap-4 px-4 py-8 text-sm text-[var(--muted)] sm:px-6">
         <p className="font-[family-name:var(--font-display)] text-lg font-semibold text-white">
           candy<span className="text-[var(--pink)]">.</span>ai review
         </p>

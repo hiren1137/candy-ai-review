@@ -75,7 +75,7 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <article className="mx-auto max-w-5xl px-4 pb-28 pt-8 sm:px-6">
+      <article className="mx-auto max-w-5xl px-4 pb-24 pt-8 sm:px-6 sm:pb-4">
         <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--pink)]">
           Hands-on review · Updated 2026
         </p>

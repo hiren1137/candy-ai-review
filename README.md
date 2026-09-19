@@ -14,7 +14,7 @@ Open [http://127.0.0.1:43123](http://127.0.0.1:43123).
 
 ## Affiliate link
 
-Set `NEXT_PUBLIC_AFFILIATE_URL` in `.env.local` to your CrakRevenue / Candy AI tracking URL. All CTAs read from `src/lib/affiliate.ts`.
+Until affiliate approval, CTAs default to `https://candy.ai/?ref=candyaireview` via `src/lib/affiliate.ts`. Override with `NEXT_PUBLIC_AFFILIATE_URL` in `.env.local` when you have a tracking link.
 
 ## Screenshots included
 
