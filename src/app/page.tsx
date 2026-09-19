@@ -367,21 +367,23 @@ export default function HomePage() {
           {userThemes.map((item) => (
             <blockquote key={item.handle} className="card-dark flex flex-col p-5">
               <div className="mb-3 flex items-center justify-between gap-2">
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2.5">
                   <span
-                    className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-[var(--pink)] to-purple-600 text-xs font-bold text-white"
+                    className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#f0506e] to-[#5b46e0]"
                     aria-hidden
                   >
-                    {item.handle.replace("@", "").slice(0, 1).toUpperCase()}
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="white" aria-hidden>
+                      <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v1.2h19.2v-1.2c0-3.2-6.4-4.8-9.6-4.8z" />
+                    </svg>
                   </span>
-                  <cite className="not-italic text-sm font-semibold text-white">{item.handle}</cite>
+                  <cite className="not-italic text-[15px] font-semibold text-white">{item.handle}</cite>
                 </div>
-                <span className="text-sm text-[var(--pink)]" aria-label={`${item.stars} out of 5 stars`}>
+                <span className="shrink-0 text-[13px] tracking-tight text-[var(--pink)]" aria-label={`${item.stars} out of 5 stars`}>
                   {"★".repeat(item.stars)}
-                  <span className="text-[var(--line)]">{"★".repeat(5 - item.stars)}</span>
+                  <span className="text-[#3a3a44]">{"★".repeat(5 - item.stars)}</span>
                 </span>
               </div>
-              <p className="text-[15px] leading-relaxed text-[var(--text)]">{item.quote}</p>
+              <p className="text-[15px] leading-[1.65] text-[var(--text)]">{item.quote}</p>
             </blockquote>
           ))}
         </div>
