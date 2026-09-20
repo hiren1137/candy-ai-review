@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Inter, Sora } from "next/font/google";
 import "./globals.css";
 import { SiteFooter, SiteHeader } from "@/components/site";
 import { SITE } from "@/lib/affiliate";
+
+const GA_ID = "G-ER26J86E56";
 
 const display = Sora({
   subsets: ["latin"],
@@ -41,6 +44,18 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${display.variable} ${body.variable}`}>
       <body className={`${body.className} antialiased`}>
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_ID}');
+          `}
+        </Script>
         <SiteHeader />
         <main>{children}</main>
         <SiteFooter />
